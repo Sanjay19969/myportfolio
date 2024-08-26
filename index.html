@@ -8,6 +8,11 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" />
   <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="about_style.css" />
+  <link rel="stylesheet" href="skill_section_style.css" />
+  <link rel="stylesheet" href="project_style.css" />
+  <link rel="stylesheet" href="education_section_style.css" />
+  <link rel="stylesheet" href="contact_style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -19,7 +24,9 @@
     <header class="navbar-section">
       <div class="container">
         <div class="logo">
-          <h1>Sanjay.</h1>
+          <a href="#home-section">
+            <h1>Sanjay.</h1>
+          </a>
         </div>
         <div class="sections">
           <nav class="navbar">
@@ -54,23 +61,22 @@
     </div>
 
     <!-------About Section--------->
-
     <div id="about-section">
       <span class="about-me">About Me</span>
-      <div class="flex-row-d">
+      <div class="about-container">
         <div class="about-picture">
           <img src="assets/images/aboutProfile.png" alt="" class="about-profile">
         </div>
-        <span class="about-text">As a Full Stack Developer, I thrive on solving complex problems and
-          continuously improving my skill set. My journey in software
-          development has equipped me with a diverse range of technical
-          abilities and the adaptability to tackle any challenge. I believe in
-          writing clean, maintainable code and enjoy collaborating with
-          cross-functional teams to bring ideas to life.</span>
+        <div class="about-text">
+          <span>As a Full Stack Developer, I thrive on solving complex problems and
+            continuously improving my skill set. My journey in software
+            development has equipped me with a diverse range of technical
+            abilities and the adaptability to tackle any challenge. I believe in
+            writing clean, maintainable code and enjoy collaborating with
+            cross-functional teams to bring ideas to life.</span>
+        </div>
       </div>
     </div>
-    <style>
-    </style>
     <!-------My Skills Section--------->
     <div id="skills-section">
       <span class="my-skil-header">My Skills</span>
@@ -216,16 +222,11 @@
         </div>
         <div class="rectangle">
           <span class="project-header">Library Management System</span><br>
-          <span class="project-content">Our Library Management System is an intuitive software solution
-            designed to enhance the efficiency of library operations. Key
-            features include:<br />Add Book: Easily add new books to the library
-            catalog with detailed information.<br />Issue Book: Streamline the
-            process of issuing books to patrons.<br />Book Returned: Efficiently
-            manage the return of books and update records accordingly.<br />Delete:
-            Remove outdated or damaged books from the catalog.<br />Edit: Update
-            book details and user information as needed.<br />This comprehensive
-            system ensures smooth management of library resources, improves user
-            experience, and simplifies administrative tasks for library
+          <span class="project-content">Our Library Management System streamlines library operations with key features
+            such as adding, issuing, returning,
+            editing, and deleting books. It simplifies catalog management, enhances user experience, and supports
+            efficient
+            administrative tasks for library staff.
             staff</span><span class="my-journey">.</span>
         </div>
       </div>
@@ -233,7 +234,7 @@
     <!------Education Section--------->
 
     <div id="education-section">
-      <span class="my-journey-header">My Journey</span>
+      <span class="education-heading">My Journey</span>
       <div class="education-container">
         <div class="edu">
           <span class="education-text">Education</span>
@@ -288,56 +289,58 @@
           </form>
         </div>
         <div class="contact-icon">
-          <img src="assets/images/contactProfile.png" alt="Profile Picture" class="profile-pic">
-          <div class="contact-details">
-            <div class="contact-item">
-              <img src="assets/images/phone.png" alt="Phone Icon" class="contact-icon-img">
-              <a href="tel:+9779810225991">+977-9746803078</a>
+          <div class="link-icon">
+            <div class="facebook-icon">
+              <a href="https://www.facebook.com/sanjaykumar.dastatma" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
             </div>
-            <div class="contact-item">
-              <img src="assets/images/whatapp.png" alt=" Phone Icon" class="contact-icon-img">
-              <a href="tel:+9779746803078">+977-9810225991</a>
+            <div class="linkedin-icon">
+              <a
+                href="https://www.linkedin.com/in/sanjay-kumar-das-467b5231a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
             </div>
-            <div class="contact-item">
-              <img src="assets/images/email.png" alt="Email Icon" class="contact-icon-img">
-              <a href="mailto:sanjaykdas1996@gmail.com">sanjaykdas1996@gmail.com</a>
+            <div class="github-icon">
+
+              <a href="https://github.com/Sanjay19969" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
             </div>
+          </div>
+          <div class="contact-item">
+            <img src="assets/images/phone.png" alt="Phone Icon" class="contact-icon-img">
+            <a href="tel:+9779810225991">+977-9746803078</a>
+          </div>
+          <div class="contact-item">
+            <img src="assets/images/whatapp.png" alt=" Phone Icon" class="contact-icon-img">
+            <a href="tel:+9779746803078">+977-9810225991</a>
+          </div>
+          <div class="contact-item">
+            <img src="assets/images/email.png" alt="Email Icon" class="contact-icon-img">
+            <a href="mailto:sanjaykdas1996@gmail.com">sanjaykdas1996@gmail.com</a>
           </div>
         </div>
       </div>
     </div>
-
-
-
-    <div class="footer-section">
-      <div class="footer-icon">
-        <div class="facebook-icon">
-          <a href="https://www.facebook.com/sanjaykumar.dastatma" target="_blank" rel="noopener noreferrer">
-            <img src="assets/images/facebook.png" alt="" class="icon">
-          </a>
-        </div>
-        <div class="linkedin-icon">
-          <a
-            href="https://www.linkedin.com/in/sanjay-kumar-das-467b5231a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-            <img src="assets/images/linkdin.png" alt="" class="icon">
-          </a>
-        </div>
-        <div class="github-icon">
-
-          <img src="assets/images/git.png" alt="" class="icon">
-        </div>
-      </div>
-      <div class="copyright-text">
-        <span class="copyright">Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2024
-          Sanjay
-          Das,
-          All right reserved</span>
-      </div>
-    </div>
-    <style>
-
-    </style>
   </div>
+
+
+
+  <div class="footer-section">
+
+    <div class="copyright-text">
+      <span class="copyright">Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2024
+        Sanjay
+        Das,
+        All right reserved</span>
+    </div>
+  </div>
+  <style>
+
+  </style>
+  </div>
+  <script src="https://kit.fontawesome.com/1b7c1e7840.js" crossorigin="anonymous"></script>
 </body>
 <script>
   var slideMenu = document.getElementById("ulMenu");
@@ -379,7 +382,6 @@
     }, 20000);
   }
 </script>
-<!-- Generated by Codia AI - https://codia.ai/ -->
-<!-- <script src="https://kit.fontawesome.com/b9c282043e.js" crossorigin="anonymous"></script> -->
+
 
 </html>

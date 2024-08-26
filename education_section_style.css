@@ -1,0 +1,131 @@
+#education-section {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.education-container {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: fit-content;
+  gap: 5%;
+  margin-top: 30px;
+}
+
+.education-heading {
+  color: white;
+  font-size: 40px;
+}
+
+.edu {
+  width: 40%;
+  gap: 20px;
+}
+
+.education {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 20px;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+.education-text {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+}
+
+.experience-container {
+  width: 40%;
+  height: 40vh;
+}
+
+.experience-text {
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+}
+
+.expericence {
+  width: 100%;
+  background-color: #999999;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: left;
+  color: #081b29;
+  transition: 0.3s;
+  margin-top: 20px;
+}
+
+.post1 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.post,
+.responsibility {
+  margin-top: 20px;
+}
+
+.expericence-text {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.dit,
+.slc {
+  background-color: #999999;
+  border-radius: 20px;
+  height: 19vh;
+  padding: 20px;
+  color: #081b29;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.school,
+.date,
+.company-name {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.program {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.slc:hover,
+.dit:hover,
+.expericence:hover {
+  background-color: #081b29;
+  border: 1px solid darkturquoise;
+  color: aliceblue;
+  transform: translateX(-10px);
+}
+@media only screen and (max-width: 600px) {
+  #education-section {
+    padding: 30px 20px;
+  }
+  .education-container {
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+  }
+  .edu,
+  .experience-container {
+    width: 100%;
+    width: fit-content;
+  }
+  .dit,
+  .slc {
+    width: 100%;
+    height: fit-content;
+  }
+}
