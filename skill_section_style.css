@@ -10,7 +10,7 @@
 
 .my-skil-header {
   color: white;
-  font-size: 40px;
+  font-size: var(--headingFontSize);
   font-weight: 400;
   font-family: Poppins, var(--default-font-family);
 }
@@ -126,5 +126,8 @@
     /* text-align: center; */
     /* align-items: center; */
     /* justify-content: center; */
+  }
+  .my-skil-header {
+    font-size: var(--headingFontSizeS);
   }
 }

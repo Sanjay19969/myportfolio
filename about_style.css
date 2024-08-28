@@ -47,7 +47,7 @@
 
 .about-me {
   text-align: center;
-  font-size: 40px;
+  font-size: var(--headingFontSize);
   color: white;
   font-family: Poppins, var(--default-font-family);
 }
@@ -72,5 +72,8 @@
   }
   .about-profile {
     width: 100%;
+  }
+  .about-me {
+    font-size: var(--headingFontSizeS);
   }
 }

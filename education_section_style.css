@@ -17,7 +17,8 @@
 
 .education-heading {
   color: white;
-  font-size: 40px;
+  font-size: var(--headingFontSize);
+  font-family: poppins, var(--default-font-family);
 }
 
 .edu {
@@ -35,7 +36,7 @@
 
 .education-text {
   text-align: center;
-  font-size: 30px;
+  font-size: var(--subHeadingFontSize);
   font-weight: 400;
   color: white;
 }
@@ -46,7 +47,7 @@
 }
 
 .experience-text {
-  font-size: 30px;
+  font-size: var(--subHeadingFontSize);
   font-weight: 400;
   color: white;
 }
@@ -63,7 +64,6 @@
 }
 
 .post1 {
-  font-size: 1.1rem;
   font-weight: 600;
 }
 
@@ -73,7 +73,6 @@
 }
 
 .expericence-text {
-  font-size: 1.1rem;
   font-weight: 400;
 }
 
@@ -112,20 +111,23 @@
 @media only screen and (max-width: 600px) {
   #education-section {
     padding: 30px 20px;
+    height: fit-content;
   }
   .education-container {
     flex-direction: column;
     width: 100%;
-    height: fit-content;
   }
   .edu,
   .experience-container {
     width: 100%;
-    width: fit-content;
+    height: fit-content;
   }
   .dit,
   .slc {
     width: 100%;
     height: fit-content;
+  }
+  .education-heading {
+    font-size: var(--headingFontSizeS);
   }
 }
