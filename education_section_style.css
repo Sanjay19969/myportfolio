@@ -43,7 +43,7 @@
 
 .experience-container {
   width: 40%;
-  height: 40vh;
+  height: fit-content;
 }
 
 .experience-text {
@@ -80,7 +80,7 @@
 .slc {
   background-color: #999999;
   border-radius: 20px;
-  height: 19vh;
+  height: fit-content;
   padding: 20px;
   color: #081b29;
   margin-bottom: 20px;
@@ -108,9 +108,15 @@
   color: aliceblue;
   transform: translateX(-10px);
 }
+@media only screen and (max-width: 1366) {
+  .dit,
+  .slc {
+    height: fit-content;
+  }
+}
 @media only screen and (max-width: 600px) {
   #education-section {
-    padding: 30px 20px;
+    padding: 0 20px;
     height: fit-content;
   }
   .education-container {

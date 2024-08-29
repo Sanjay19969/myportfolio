@@ -72,6 +72,7 @@
   font-weight: 600;
   border: 2px solid;
   transition: 1s;
+  color: #081b29;
 }
 
 .btn:hover {

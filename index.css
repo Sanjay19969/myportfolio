@@ -83,7 +83,7 @@ nav ul li a {
   color: white;
   text-decoration: none;
   position: relative;
-  font-size: 1.2rem;
+  font-size: 1.12rem;
 }
 
 nav ul li a::before {
@@ -102,17 +102,16 @@ nav ul li a:hover::before {
 }
 #home-section {
   width: 100%;
-  background-image: url("assets/images/Homeprofile3.png");
+  background-image: url("assets/images/profile.png");
   background-repeat: no-repeat;
-  background-size: 40% auto;
+  background-size: 25% auto;
   background-position-x: 80%;
-  background-position-y: 4rem;
+  background-position-y: 7rem;
   background-attachment: fixed;
   height: 100vh;
   display: flex;
   align-items: center;
   /* justify-content: center; */
-
   padding: 20px;
 }
 
@@ -122,8 +121,8 @@ nav ul li a:hover::before {
 }
 
 .text-container h2 {
-  font-size: 30px;
-  color: white;
+  font-size: 25px;
+  color: darkturquoise;
   font-weight: normal;
   margin-bottom: 10px;
   font-style: oblique;
@@ -183,7 +182,7 @@ nav ul li a:hover::before {
     height: 25px;
   }
   .navbar ul {
-    background-color: #132d3f;
+    background-color: rgb(19, 45, 63);
     opacity: 9;
     position: fixed;
     top: 0;
@@ -226,10 +225,10 @@ nav ul li a:hover::before {
     width: 100%;
     /* background-image: url("assets/images/Homeprofile1.png"); */
     background-repeat: no-repeat;
-    background-size: 120% auto;
-    background-position: right;
+    background-size: 95% auto;
+    background-position: center;
     background-position-y: 5rem;
-    background-position-x: -1rem;
+    /* background-position-x: rem; */
     background-attachment: fixed;
     height: 100vh;
     display: flex;
